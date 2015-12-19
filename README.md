@@ -13,16 +13,31 @@ Want to get started with API integration? Here's a quick check list:
 
 # Making a request
 
-All URLs start with `https://geopack.me/ecommerce/v1/{ecommerce_id}`. SSL only. The path is prefixed with the store id and the API version. If we change the API in backward-incompatible ways, we'll bump the version marker and maintain stable support for the old URLs.
+All URLs start with `https://geopack.me/ecommerce/v1/(ecommerce_id)`. SSL only. The path is prefixed with the store id and the API version. If we change the API in backward-incompatible ways, we'll bump the version marker and maintain stable support for the old URLs.
 
-So if you want to access the ecommerce with id 21357 via the API the url will be `https://geopack.me/ecommerce/v1/{ecommerce_id}`.
+So if you want to access the ecommerce with id 21357 via the API the url will be `https://geopack.me/ecommerce/v1/(ecommerce_id)`.
 
 To make a request for all the ecommerce's roadmap you would do the following in curl:
 
-```
+```shell
+
 curl -H 'Authentication: bearer ACCESS_TOKEN ' \
-  -H 'User-Agent: {ecommerce_name}' \
-  https://geopack.me/ecommerce/v1/{ecommerce_id}/roadmap
+  -H 'User-Agent: (ecommerce_name)' \
+  https://geopack.me/ecommerce/v1/(ecommerce_id)/roadmap
+
+```
+
+where ACCESS_TOKEN is the ecommerce's access token for your app (see Authentication).
+
+To create something, you have to include the Content-Type header and the JSON data:
+
+```shell
+
+curl -H 'Authentication: bearer ACCESS_TOKEN ' \
+  -H 'Content-Type: application/json' \
+  -H 'User-Agent: (ecommerce_name)' \
+  -d '{ "name": "My new roadmap" }' \
+  https://geopack.me/ecommerce/v1/(ecommerce_id)/roadmap
 
 ```
 
