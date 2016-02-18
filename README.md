@@ -48,6 +48,6 @@ curl -H 'Authentication: bearer ACCESS_TOKEN ' \
 
 ```
 
-# [Resources] (../blob/master/resources)
+# [Resources] (resources)
 
-[Roadmap](/blob/master/resources/roadmap.md)
+[Roadmap](resources/roadmap.md)
