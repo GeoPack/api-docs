@@ -95,7 +95,7 @@ POST /roadmap
     "stage": -4
 },
 #!/bin/bash
- <<COMMENT1
+ <<"COMMENT1"
   It's optional
 
 "waytpoint": [
