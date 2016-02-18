@@ -42,6 +42,7 @@ curl -H 'Authentication: bearer ACCESS_TOKEN ' \
 ```
 
 # Authentication
+
 ```shell
 
 
@@ -56,7 +57,8 @@ POST /roadmap
 
 ```shell
 
-{ #open json
+#open json
+{
   "start": {
       "address": {
           "street": "Carlos Francisco Melo",
@@ -124,7 +126,6 @@ Waytpoint is optional
   ]
 
 ```
-
 
 ```shell
 
