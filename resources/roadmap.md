@@ -4,10 +4,16 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
 
 ### POST /roadmap
 
+##### Open json
 ```shell
 
-#open json
 {
+
+```
+
+##### start
+```shell
+
   "start": {
       "address": {
           "street": "Carlos Francisco Melo",
@@ -27,29 +33,9 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
       },
       "stage": -4
   },
-  "end": {
-      "address": {
-          "street": "Av Cabildo 2901",
-          "number": "2901",
-          "locality": "C1429AAA CABA",
-          "reference": "4 A",
-          "lat": "", # or -34.555172
-          "lng": ""  # or -58.4646787
-      },
-      "contact": {
-          "name": "******",
-          "lastname": "*******",
-          "gender": "female", # or mail
-          "birthday": "****\/**\/**",
-          "mail": "********6@*****.***",
-          "mobile": "54911********"
-      },
-      "stage": -4
-  } 
-
+  
 ```
-### POST /roadmap + waytpoint
-
+##### Waytpoint is optional
 ```shell
 
   "waytpoint": [
@@ -76,8 +62,35 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
 
 ```
 
+##### end
 ```shell
 
-} #close json
+  "end": {
+      "address": {
+          "street": "Av Cabildo 2901",
+          "number": "2901",
+          "locality": "C1429AAA CABA",
+          "reference": "4 A",
+          "lat": "", # or -34.555172
+          "lng": ""  # or -58.4646787
+      },
+      "contact": {
+          "name": "******",
+          "lastname": "*******",
+          "gender": "female", # or mail
+          "birthday": "****\/**\/**",
+          "mail": "********6@*****.***",
+          "mobile": "54911********"
+      },
+      "stage": -4
+  } 
+
+
+```
+
+##### Close json
+```shell
+
+}
 
 ```
