@@ -93,33 +93,30 @@ POST /roadmap
         "mobile": "54911********"
     },
     "stage": -4
-},
-#!/bin/bash
- <<"COMMENT1"
-  It's optional
+} #,  It's optional
 
-"waytpoint": [
-    {
-        "address": {
-            "street": "Av. Corrientes",
-            "number": "1500",
-            "locality": "C1042AAN CABA",
-            "reference": "3 B", # or null
-            "lat": "-34.6041021", # or empty
-            "lng": "-58.3901012"  # or empty
-        },
-        "contact": {
-            "name": "******",
-            "lastname": "*******",
-            "gender": "female", # or male
-            "birthday": "****\/**\/**",
-            "mail": "********@****.**",
-            "mobile": "54911********"
-        },
-        "stage": -4
-    }
-  ]
-  COMMENT1
+# "waytpoint": [
+#    {
+#        "address": {
+#            "street": "Av. Corrientes",
+#            "number": "1500",
+#            "locality": "C1042AAN CABA",
+#            "reference": "3 B", # or null
+#            "lat": "-34.6041021", # or empty
+#            "lng": "-58.3901012"  # or empty
+#        },
+#        "contact": {
+#            "name": "******",
+#            "lastname": "*******",
+#            "gender": "female", # or male
+#            "birthday": "****\/**\/**",
+#            "mail": "********@****.**",
+#            "mobile": "54911********"
+#        },
+#        "stage": -4
+#    }
+#  ]
+
 }
 
 ```
