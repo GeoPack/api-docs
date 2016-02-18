@@ -48,7 +48,7 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
   } 
 
 ```
-Waytpoint is optional
+### POST /roadmap + waytpoint
 
 ```shell
 
