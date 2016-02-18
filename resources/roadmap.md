@@ -59,7 +59,7 @@ Where pick up
         },
         "stage": -4
     }
-  ]
+  ],
 
 ```
 
