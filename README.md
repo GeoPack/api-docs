@@ -50,51 +50,39 @@ curl -H 'Authentication: bearer ACCESS_TOKEN ' \
 
 # Set roadmap
 
+This creates a new roadmap in the system that will show up to a nearest geopacker to the pickup point.
+
+HTTP Request
+
 ```shell
-{
-    "start": {
-        "address": {
-            "street": "Calle 8",
-            "number": "12300",
-            "locality": "San Carlos de Bariloche, R\u00edo Negro",
-            "reference": null,
-            "lat": "",
-            "lng": ""
-        },
-        "contact": {
-            "name": "Diego",
-            "lastname": "D'Alto",
-            "gender": "male",
-            "birthday": "1983\/09\/05",
-            "mail": "dm.dalto@hotmail.com",
-            "mobile": "5491132038575"
-        },
-        "stage": -4
-    },
-    "end": {
-        "address": {
-            "street": "Calle 2",
-            "number": "12100",
-            "locality": "Villa Nahuel Malal, San Carlos de Bariloche, R\u00edo Negro",
-            "reference": null,
-            "lat": "",
-            "lng": ""
-        },
-        "contact": {
-            "name": "Cecilia",
-            "lastname": "Gioffr\u00e9",
-            "gender": "female",
-            "birthday": "1985\/03\/29",
-            "mail": "ceciliagioffre@gmail.com",
-            "mobile": "5491140482165"
-        },
-        "stage": -4
-    },
-    "waytpoint": [ # It's optional
-        {
+
+curl -H 'Authentication: bearer ACCESS_TOKEN ' \
+  -H 'Content-Type: application/json' \
+  -H 'User-Agent: (ecommerce_name)' \
+  -d '{
+        "start": {
             "address": {
-                "street": "Calle 4",
-                "number": "11600",
+                "street": "Calle 8",
+                "number": "12300",
+                "locality": "San Carlos de Bariloche, R\u00edo Negro",
+                "reference": null,
+                "lat": "",
+                "lng": ""
+            },
+            "contact": {
+                "name": "Diego",
+                "lastname": "D'Alto",
+                "gender": "male",
+                "birthday": "1983\/09\/05",
+                "mail": "dm.dalto@hotmail.com",
+                "mobile": "5491132038575"
+            },
+            "stage": -4
+        },
+        "end": {
+            "address": {
+                "street": "Calle 2",
+                "number": "12100",
                 "locality": "Villa Nahuel Malal, San Carlos de Bariloche, R\u00edo Negro",
                 "reference": null,
                 "lat": "",
@@ -109,10 +97,31 @@ curl -H 'Authentication: bearer ACCESS_TOKEN ' \
                 "mobile": "5491140482165"
             },
             "stage": -4
-        }
-    ]
-}
+        },
+        "waytpoint": [ # It's optional
+            {
+                "address": {
+                    "street": "Calle 4",
+                    "number": "11600",
+                    "locality": "Villa Nahuel Malal, San Carlos de Bariloche, R\u00edo Negro",
+                    "reference": null,
+                    "lat": "",
+                    "lng": ""
+                },
+                "contact": {
+                    "name": "Cecilia",
+                    "lastname": "Gioffr\u00e9",
+                    "gender": "female",
+                    "birthday": "1985\/03\/29",
+                    "mail": "ceciliagioffre@gmail.com",
+                    "mobile": "5491140482165"
+                },
+                "stage": -4
+            }
+        ]
+    }` \
+
+  https://geopack.me/ecommerce/v1/(ecommerce_id)/roadmap
+
 ```
-
-
 
