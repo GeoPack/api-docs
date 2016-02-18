@@ -95,8 +95,9 @@ POST /roadmap
     "stage": -4
 },
 #!/bin/bash
- It's optional
  <<COMMENT1
+  It's optional
+
 "waytpoint": [
     {
         "address": {
