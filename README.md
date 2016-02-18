@@ -62,8 +62,8 @@ POST /roadmap
         "number": "3410",
         "locality": "Villa Martelli, Buenos Aires",
         "reference": null,
-        "lat": "-34.5691192",
-        "lng": "-58.4739864"
+        "lat": "-34.5691192", # or empty
+        "lng": "-58.4739864"  # or empty
     },
     "contact": {
         "name": "******",
@@ -81,8 +81,8 @@ POST /roadmap
         "number": "2901",
         "locality": "C1429AAA CABA",
         "reference": "4 A",
-        "lat": "",
-        "lng": ""
+        "lat": "", # or -34.555172
+        "lng": ""  # or -58.4646787
     },
     "contact": {
         "name": "******",
@@ -94,15 +94,18 @@ POST /roadmap
     },
     "stage": -4
 },
-"waytpoint": [ # It's optional
+/**
+ * It's optional
+ 
+"waytpoint": [
     {
         "address": {
             "street": "Av. Corrientes",
             "number": "1500",
             "locality": "C1042AAN CABA",
-            "reference": null,
-            "lat": "",
-            "lng": ""
+            "reference": "3 B", # or null
+            "lat": "-34.6041021", # or empty
+            "lng": "-58.3901012"  # or empty
         },
         "contact": {
             "name": "******",
@@ -115,6 +118,8 @@ POST /roadmap
         "stage": -4
     }
   ]
+  *
+  */
 }
 
 ```
