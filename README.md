@@ -90,7 +90,7 @@ curl -H 'Authentication: bearer ACCESS_TOKEN ' \
         },
         "stage": -4
     },
-    "waytpoint": [
+    "waytpoint": [ # It's optional
         {
             "address": {
                 "street": "Calle 4",
