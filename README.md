@@ -58,59 +58,59 @@ POST /roadmap
 
 "start": {
     "address": {
-        "street": "Calle 8",
-        "number": "12300",
-        "locality": "San Carlos de Bariloche, R\u00edo Negro",
+        "street": "Carlos Francisco Melo",
+        "number": "3410",
+        "locality": "Villa Martelli, Buenos Aires",
         "reference": null,
-        "lat": "",
-        "lng": ""
+        "lat": "-34.5691192",
+        "lng": "-58.4739864"
     },
     "contact": {
-        "name": "Diego",
-        "lastname": "D'Alto",
-        "gender": "male",
-        "birthday": "1983\/09\/05",
-        "mail": "dm.dalto@hotmail.com",
-        "mobile": "5491132038575"
+        "name": "******",
+        "lastname": "*******",
+        "gender": "female", # or mail
+        "birthday": "****\/**\/**",
+        "mail": "********6@*****.***",
+        "mobile": "54911********"
     },
     "stage": -4
 },
 "end": {
     "address": {
-        "street": "Calle 2",
-        "number": "12100",
-        "locality": "Villa Nahuel Malal, San Carlos de Bariloche, R\u00edo Negro",
-        "reference": null,
+        "street": "Av Cabildo 2901",
+        "number": "2901",
+        "locality": "C1429AAA CABA",
+        "reference": "4 A",
         "lat": "",
         "lng": ""
     },
     "contact": {
-        "name": "Cecilia",
-        "lastname": "Gioffr\u00e9",
-        "gender": "female",
-        "birthday": "1985\/03\/29",
-        "mail": "ceciliagioffre@gmail.com",
-        "mobile": "5491140482165"
+        "name": "******",
+        "lastname": "*******",
+        "gender": "female", # or mail
+        "birthday": "****\/**\/**",
+        "mail": "********6@*****.***",
+        "mobile": "54911********"
     },
     "stage": -4
 },
 "waytpoint": [ # It's optional
     {
         "address": {
-            "street": "Calle 4",
-            "number": "11600",
-            "locality": "Villa Nahuel Malal, San Carlos de Bariloche, R\u00edo Negro",
+            "street": "Av. Corrientes",
+            "number": "1500",
+            "locality": "C1042AAN CABA",
             "reference": null,
             "lat": "",
             "lng": ""
         },
         "contact": {
-            "name": "Cecilia",
-            "lastname": "Gioffr\u00e9",
-            "gender": "female",
-            "birthday": "1985\/03\/29",
-            "mail": "ceciliagioffre@gmail.com",
-            "mobile": "5491140482165"
+            "name": "******",
+            "lastname": "*******",
+            "gender": "female", # or male
+            "birthday": "****\/**\/**",
+            "mail": "********@****.**",
+            "mobile": "54911********"
         },
         "stage": -4
     }
