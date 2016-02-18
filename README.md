@@ -55,8 +55,8 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
 POST /roadmap
 
 ```shell
-#open json
-{
+
+{ #open json
   "start": {
       "address": {
           "street": "Carlos Francisco Melo",
@@ -128,6 +128,6 @@ Waytpoint is optional
 
 ```shell
 
-}
-#close json
+} #close json
+
 ```
