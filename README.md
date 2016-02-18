@@ -36,7 +36,7 @@ To create something, you have to include the Content-Type header and the JSON da
 curl -H 'Authentication: bearer ACCESS_TOKEN ' \
   -H 'Content-Type: application/json' \
   -H 'User-Agent: (ecommerce_name)' \
-  -d '{ "name": "My new roadmap" }' \
+  -d '{ }' \
   https://geopack.me/ecommerce/v1/(ecommerce_id)/roadmap
 
 ```
