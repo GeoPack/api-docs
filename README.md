@@ -6,7 +6,7 @@ This is a REST-style API that uses JSON for serialization
 
 Want to get started with API integration? Here's a quick check list:
 
-1. Register as a ecommerce in Geo Pack.
+1. Register as a ecommerce in [Geo Pack](https://geopack.me/ecommerce/sign_up).
 2. Once inside your ecommerce's admin panel, go to the "Apps" section and create your app.
 3. Read up on how to authenticate your app with us.
 4. Read the API docs to understand what you can do with your app.
