@@ -2,6 +2,10 @@
 
 This creates a new roadmap in the system that will show up to a nearest geopacker to the pickup point.
 
+Name | Description
+start | Mandatory
+
+
 ### POST /roadmap
 
 ##### Open json
@@ -37,6 +41,7 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
   
 ```
 ##### Waytpoint is optional
+`Stopover`
 ```shell
 
   "waytpoint": [
@@ -64,7 +69,7 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
 ```
 
 ##### End
-Delivery address
+`Delivery address`
 ```shell
 
   "end": {
