@@ -20,7 +20,7 @@ Where pick up
           "street": "Carlos Francisco Melo",
           "number": "3410",
           "locality": "Villa Martelli, Buenos Aires",
-          "reference": null,
+          "reference": null, # or "5 c"
           "lat": "-34.5691192", # or empty
           "lng": "-58.4739864"  # or empty
       },
@@ -72,7 +72,7 @@ Where delivery
           "street": "Av Cabildo 2901",
           "number": "2901",
           "locality": "C1429AAA CABA",
-          "reference": "4 A",
+          "reference": "4 A", # or null
           "lat": "", # or -34.555172
           "lng": ""  # or -58.4646787
       },
