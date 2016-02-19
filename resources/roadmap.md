@@ -27,7 +27,7 @@ Where pick up
       "contact": {
           "name": "******",
           "lastname": "*******",
-          "gender": "female", # or mail
+          "gender": "female", # or male
           "birthday": "****\/**\/**",
           "mail": "********6@*****.***",
           "mobile": "54911********"
@@ -79,7 +79,7 @@ Where delivery
       "contact": {
           "name": "******",
           "lastname": "*******",
-          "gender": "female", # or mail
+          "gender": "female", # or male
           "birthday": "****\/**\/**",
           "mail": "********6@*****.***",
           "mobile": "54911********"
