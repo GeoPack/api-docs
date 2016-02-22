@@ -4,10 +4,9 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
 
 | Name | data |
 | --- | --- |
-start 
-waypoint 
-end | address, contact, stage |
-
+| start |
+| waypoint | address, contact, stage |
+| end | 
 
 ### POST /roadmap
 
