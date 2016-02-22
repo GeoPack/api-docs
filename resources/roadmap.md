@@ -2,11 +2,11 @@
 
 This creates a new roadmap in the system that will show up to a nearest geopacker to the pickup point.
 
-Name | data
---- | ---
+| Name | data |
+| --- | --- |
 start 
 waypoint 
-end | address, contact, stage
+end | address, contact, stage |
 
 
 ### POST /roadmap
