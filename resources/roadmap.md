@@ -2,12 +2,6 @@
 
 This creates a new roadmap in the system that will show up to a nearest geopacker to the pickup point.
 
-| Name | data |
-| --- | --- |
-| start |
-| waypoint | address, contact, stage |
-| end | 
-
 ### POST /roadmap
 
 ##### Open json
@@ -121,7 +115,91 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
             "qr": "***" #url
         }
     ],
-    "cost": **
+    "price": **
+}
+
+```
+
+### GET /roadmap
+
+| Parameter | Explanation |
+| --- | --- |
+| id | Show roadmap |
+
+```shell
+
+{
+    "start": {
+        "address": {
+            "street": "Av. Corrientes",
+            "number": "1500",
+            "locality": "C1042AAN CABA",
+            "reference": "3 B",
+            "lat": "-34.6041021",
+            "lng": "-58.3901012"
+        },
+        "contact": {
+            "name": "******",
+            "lastname": "*******",
+            "gender": "female",
+            "birthday": "****\/**\/**",
+            "mail": "********@****.**",
+            "mobile": "54911********"
+        },
+        "stage": "******"
+    },
+    "end": {
+        "address": {
+            "street": "Av Cabildo 2901",
+            "number": "2901",
+            "locality": "C1429AAA CABA",
+            "reference": "4 A",
+            "lat": "-34.555172",
+            "lng": "-58.4646787"
+        },
+        "contact": {
+            "name": "******",
+            "lastname": "*******",
+            "gender": "female", # or male
+            "birthday": "****\/**\/**",
+            "mail": "*********@*****.***",
+            "mobile": "54911********"
+        },
+        "stage": "******"
+    },
+    "datetime": "2016-02-23 19:17:58",
+    "price": 75,
+    "distance": 2,
+    "geopacker": {
+        "name": null,
+        "lastname": null,
+        "gender": null,
+        "birthday": null,
+        "mail": null,
+        "mobile": null
+    },
+    "waytpoint": [
+        {
+          {
+            "address": {
+                "street": "Av. Corrientes",
+                "number": "1500",
+                "locality": "C1042AAN CABA",
+                "reference": "3 B",
+                "lat": "-34.6041021",
+                "lng": "-58.3901012"
+            },
+            "contact": {
+                "name": "******",
+                "lastname": "*******",
+                "gender": "female",
+                "birthday": "****\/**\/**",
+                "mail": "********@****.**",
+                "mobile": "54911********"
+            },
+            "stage": "******"
+        }
+    ]
 }
 
 ```
