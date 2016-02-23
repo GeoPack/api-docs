@@ -35,7 +35,7 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
           "lastname": "*******",
           "gender": "female", # or male
           "birthday": "****\/**\/**",
-          "mail": "********6@*****.***",
+          "mail": "*********@*****.***",
           "mobile": "54911********"
       },
       "stage": -4
@@ -88,7 +88,7 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
           "lastname": "*******",
           "gender": "female", # or male
           "birthday": "****\/**\/**",
-          "mail": "********6@*****.***",
+          "mail": "*********@*****.***",
           "mobile": "54911********"
       },
       "stage": -4
@@ -113,11 +113,11 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
     "id": "***",
     "delivery": [
         {
-            "mail": "******@****.***",
+            "mail": "******",
             "qr": "***" #url
         },
         {
-            "mail": "******@****.***",
+            "mail": "******",
             "qr": "***" #url
         }
     ],
