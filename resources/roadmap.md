@@ -120,7 +120,7 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
 
 ```
 
-### GET /roadmap
+### GET /roadmap/:id
 
 | Parameter | Explanation |
 | --- | --- |
@@ -160,7 +160,7 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
         "contact": {
             "name": "******",
             "lastname": "*******",
-            "gender": "female", # or male
+            "gender": "female",
             "birthday": "****\/**\/**",
             "mail": "*********@*****.***",
             "mobile": "54911********"
