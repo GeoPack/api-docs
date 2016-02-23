@@ -114,11 +114,11 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
     "delivery": [
         {
             "mail": "******@****.***",
-            "qr": "https:\/\/geopack.me\/ecommerce\/v1\/QR\/**************************.png?oh=********************&th=***********************************************"
+            "qr": "***" #url
         },
         {
             "mail": "******@****.***",
-            "qr": "https:\/\/geopack.me\/ecommerce\/v1\/QR\/**************************.png?oh=********************&th=***********************************************"
+            "qr": "***" #url
         }
     ],
     "cost": **
