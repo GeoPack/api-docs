@@ -208,13 +208,23 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
 
 ### PUT /roadmap/:id/stage/:stage
 
+| Stage |
+|---|
+| cancel |
+| pickup |
+| receive |
+| unauthorized |
+
+
 Modify an existing stage roadmap
+
+`HTTP/1.1 201 Created`
 
 ```shell
 
 {
-  "stage": ""
-  "id": ""
+    "status": "OK",
+    "stage": "cancel"
 }
 
 ```
