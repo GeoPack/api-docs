@@ -203,7 +203,7 @@ This creates a new roadmap in the system that will show up to a nearest geopacke
 
 ```
 
-### PUT /roadmap/:id/stage/[:stage](stage.md)
+### PUT /roadmap/:id/stage/[:param](stage.md)
 
 Modify an existing stage roadmap
 
